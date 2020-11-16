@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login-page.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <form class="login-form">
+            
+                <h2>LOGIN</h2>
+                <div class="txt-field">
+                <input type="text" name="username" class="username" required>
+                <span></span>
+                <label for="username">User name</label>
+                </div>
+                <div class="txt-field password" >
+                <input type="password" name="password">
+                <span></span>
+                <label for="password" required>Password</label>
+                </div>
+                <div class='remember-me'>
+                    <input name="remember-me" type="checkbox">
+                    
+                    <label for="remeber-me" class="remember">Remember me</label>
+                </div>
+                <input type="submit" value="LOGIN">
+                <div class="line-text"><span>or you can login with</span></div>
+                <div class="other-login-container">
+                <div class="facebook other-login"><i class="fab fa-facebook-square"></i><p>Facebook</p></div>
+                <div class="google-account other-login"><div id="google"></div><p>Google</p></div>
+                </div>
+                <div class="sign-up">
+                    <p >Already created account</p><p  class="change-page">sign up now</p>
+                    </div>
+            
+        </form>
+        <form class="register-form">
+            
+            <h2>REGISTER</h2>
+            <div class="txt-field">
+            <input type="text" name="username" class="username" required>
+            <span></span>
+            <label for="username">User name</label>
+            </div>
+            <div class="txt-field">
+            <input type="text" name="email" class="email" required>
+            <span></span>
+            <label for="email">Email</label>
+            </div>
+            <div class="txt-field password" >
+            <input type="password" name="password">
+            <span></span>
+            <label for="password" required>Password</label>
+            </div>
+            <div class="txt-field password" >
+                <input type="password" name="confirm-password">
+                <span></span>
+                <label for="confirm-password" required>confirm password</label>
+            </div>
+            <div class='remember-me'>
+                <input name="remember-me" type="checkbox">
+                
+                <label for="remeber-me" class="remember">Remember me</label>
+            </div>
+            <input type="submit" value="LOGIN">
+            <div class="line-text"><span>or you can login with</span></div>
+            <div class="other-login-container">
+            <div class="facebook other-login"><i class="fab fa-facebook-square"></i><p>Facebook</p></div>
+            <div class="google-account other-login"><div id="google"></div><p>Google</p></div>
+            </div>
+            <div class="sign-up">
+            <p >Already created account</p><p  class="change-page">sign up now</p>
+            </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='login-page.js'></script>
+    
+    </body>
+</html>
