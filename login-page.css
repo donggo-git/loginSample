@@ -204,6 +204,7 @@ input[type="submit"]{
       color: rgb(156, 156, 156);
       margin-left: 0.3rem;
       cursor: pointer;
+      
   }
 @media (max-width: 400px){
     form{
